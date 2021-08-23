@@ -10,6 +10,9 @@ export class LinkedList {
     }
 }
 
+//O(n) time -> Look through each node exactly one time
+//O(1) space -> Modifying the input that is passed, no extra memory is used except for the variable definitions
+
 //linked list is always sorted in ascending order
 //assume you're always given at least one node
 function removeDuplicatesFromLinkedList(list: LinkedList): LinkedList {
